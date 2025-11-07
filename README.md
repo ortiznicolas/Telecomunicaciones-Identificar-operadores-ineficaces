@@ -1,22 +1,24 @@
-# Telecomunicaciones-Identificar-operadores-ineficaces
-📞 Análisis de Desempeño Operativo en el Centro de Llamadas CallMeMaybe
+📞 Operational Performance Analysis at CallMeMaybe Contact Center
+📌 Brief Description
 
-Descripción breve:
-Este proyecto analiza el rendimiento de los operadores del servicio de telefonía virtual CallMeMaybe, identificando patrones de ineficiencia a partir de métricas como llamadas perdidas, tiempos de espera y volumen de llamadas salientes. El trabajo combina análisis exploratorio, visualización y pruebas estadísticas para respaldar decisiones de mejora operativa.
+This project analyzes the performance of operators at the virtual telephony service CallMeMaybe, identifying inefficiency patterns based on key metrics such as missed calls, waiting times, and outbound call volume. The work integrates exploratory analysis, data visualization, and statistical testing to support data-driven operational improvements.
 
-Objetivo y contexto del problema:
-El objetivo fue identificar a los operadores menos eficaces dentro del sistema de atención telefónica. Se consideraron ineficaces aquellos con altas tasas de llamadas entrantes perdidas, tiempos de espera prolongados y baja proporción de llamadas salientes. Este análisis permite a los supervisores focalizar acciones de capacitación y optimización de recursos.
+🎯 Objective and Context
 
-Tecnologías utilizadas:
-Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Jupyter Notebook.
-Se aplicaron técnicas de EDA (Exploratory Data Analysis), estadística descriptiva e inferencial (pruebas t-test y Mann–Whitney), así como visualización de datos.
+The objective was to identify the least effective operators within the customer support system. Operators were considered inefficient if they exhibited high rates of missed inbound calls, long waiting times, or a low number of outbound calls.
+This analysis provides supervisors with actionable insights to target training efforts and optimize resource allocation.
 
-Resultados, visualizaciones y aprendizajes clave:
+🧠 Technologies Used
 
-Se identificó un grupo de operadores con tasas de llamadas perdidas y tiempos de espera significativamente superiores al promedio.
+Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Jupyter Notebook
+Techniques applied: Exploratory Data Analysis (EDA), descriptive and inferential statistics (t-test, Mann–Whitney test), and data visualization.
 
-El análisis de hipótesis mostró diferencias estadísticamente significativas en los tiempos de espera entre operadores eficaces e ineficaces (p < 0.05).
+📊 Key Results and Insights
 
-Las visualizaciones en scatter plot permitieron distinguir claramente los patrones de ineficiencia.
+A group of operators was identified with significantly higher missed call rates and longer waiting times than the overall average.
 
-Aprendizaje clave: combinar métricas de desempeño con pruebas estadísticas proporciona una base sólida para la toma de decisiones operativas basadas en datos.
+Hypothesis testing confirmed statistically significant differences in waiting times between efficient and inefficient operators (p < 0.05).
+
+Scatter plot visualizations clearly revealed performance outliers and inefficiency trends.
+
+Key learning: combining performance metrics with statistical testing offers a robust foundation for data-informed operational decision-making.
